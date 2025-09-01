@@ -36,3 +36,9 @@ echo -e "and employee id is \e[33m $employeeId \e[0m"
 echo -e "the name of the script is $0"
 echo -e "the pid of the current shell is $$"
 echo -e "the number of arguments in a script is $#"
+
+#read input from user 
+
+read -p "enter your user name: " username
+read -p -s "enter your password: " password
+echo -e "\n username is $username"
