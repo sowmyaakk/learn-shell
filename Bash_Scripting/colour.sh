@@ -10,7 +10,7 @@ name=lokesh
 empid=1272
 
 echo -e "employee name is \e[31m $name \e[0m"
-echo -e "and employee id is \e[32m $empid \e[0m"
+echo -e "and employee id is \e[34m $empid \e[0m"
 
 #dynamicvarabiles
 
@@ -18,4 +18,4 @@ employeeName=$1
 employeeId=$2
 
 echo -e "employee name is \e[31m $employeeName \e[0m"
-echo -e "and employee id is \e[32m $employeeId \e[0m"
+echo -e "and employee id is \e[33m $employeeId \e[0m"
