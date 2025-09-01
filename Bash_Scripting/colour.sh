@@ -31,3 +31,8 @@ employeeId=$2
 echo -e "employee name is \e[31m $employeeName \e[0m"
 echo -e "and employee id is \e[33m $employeeId \e[0m"
 
+#special variables
+
+echo -e "the name of the script is $0"
+echo -e "the pid of the current shell is $$"
+echo -e "the number of arguments in a script is $#"
