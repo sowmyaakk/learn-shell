@@ -40,5 +40,5 @@ echo -e "the number of arguments in a script is $#"
 #read input from user 
 
 read -p "enter your user name: " username
-read -p -s "enter your password: " password
+read -s -p "enter your password: " password
 echo -e "\n username is $username"
