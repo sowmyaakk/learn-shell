@@ -43,12 +43,3 @@ read -p "enter your user name: " username
 read -s -p "enter your password: " password
 echo -e "\n username is $username"
 
-#redirection
-
-#input redirection
-
-wc -l < colour.sh
-
-#output redirection
-
-ls -ltr > output.txt
